@@ -30,7 +30,7 @@ public class DataLoader  implements ApplicationRunner {
         Squares go = new Squares(0,"Go",null, 0, new ArrayList<Integer>(Arrays.asList (0, 0, 0, 0,0,0)), 0);
         squaresRepository.save(go);
 
-        Squares okr = new Squares(1,"Old Kent Road!!!!", "brown",60, new ArrayList<Integer>(Arrays.asList(2, 10, 30, 90,160,250)), 50);
+        Squares okr = new Squares(1,"Old Kent Road", "brown",60, new ArrayList<Integer>(Arrays.asList(2, 10, 30, 90,160,250)), 50);
         squaresRepository.save(okr);
 
         Squares cc1 = new Squares(2, "Community Chest", "communitychest",0,new ArrayList<Integer>(Arrays.asList (0, 0, 0, 0, 0, 0)), 0);
